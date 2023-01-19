@@ -11,6 +11,17 @@ a {
   text-decoration: none;
 }
 
+.inputStyle{
+  border-radius: 20px;
+  height: 70px;
+  width: 300px;
+  font-size: 23px;
+  padding: 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
 * {
   box-sizing: border-box;
 }
