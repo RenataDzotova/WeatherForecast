@@ -57,7 +57,7 @@ export default function Home() {
         {
           weather && weather.map((w, index) =>{
             return(
-              <Wrapper bgImage="/kenrick-mills-MF9Wy1NA55I-unsplash-2.jpg">
+              <Wrapper bgImage="/kenrick-mills-MF9Wy1NA55I-unsplash-2.jpg" key={index}>
 
                   <FlexBox key={index} dir="column" width="100%" height="100%">
                     <FlexBox dir="column" margin="200px 0 0 0">
