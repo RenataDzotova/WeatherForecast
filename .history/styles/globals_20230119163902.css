@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url("../public/cory-bjork-nkXNnX4BG1k-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titleText{
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+  background-color: transparent;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.inputStyle{
+  border-radius: 20px;
+  height: 70px;
+  width: 300px;
+  font-size: 23px;
+  padding: 20px;
+  background-color: transparent;
+  color: rgb(14, 40, 66);
+  border: 2px solid rgb(62, 150, 239);
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
