@@ -84,7 +84,7 @@ export default function Home() {
         {
           weather && weather.map((w, index) =>{
             return(
-              <Wrapper bgImage={ data.main.temp.toFixed() < 0 && w.main=="Snow" ? "/alora-griffiths-HlnFco4i624-unsplash.jpg" : w.main=="Rain" || w.main=="Thunderstorm" ? "/nick-nice-ve-R7PCjJDk-unsplash.jpg" : w.main=="Clouds" ? "/johny-goerend-z_SXPzTMKkc-unsplash.jpg" : w.main=="Mist" ? "/cristofer-maximilian-YmsrXcDf0J8-unsplash.jpg" : "/kenrick-mills-MF9Wy1NA55I-unsplash-2.jpg"} key={index}>
+              <Wrapper bgImage={ data.main.temp.toFixed() < 0 && w.main=="Snow" ? "/alora-griffiths-HlnFco4i624-unsplash.jpg" : w.main=="Rain" || w.main=="Thunderstorm" ? "/nick-nice-ve-R7PCjJDk-unsplash.jpg" : w.main=="Clouds" ? "/johny-goerend-z_SXPzTMKkc-unsplash.jpg" : w.main=="Mist" || w.main=="Fog" ? "/cristofer-maximilian-YmsrXcDf0J8-unsplash.jpg" : "/kenrick-mills-MF9Wy1NA55I-unsplash-2.jpg"} key={index}>
 
                   <FlexBox dir="column" width="100%" height="100%">
                     <FlexBox dir="column" margin="200px 0 0 0">
