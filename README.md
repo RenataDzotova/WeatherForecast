@@ -10,5 +10,5 @@ https://openweathermap.org
 
 
 ■ Tools/Language used
-The app is based on next.js. 
+The app is based on Javascript next.js and CSS. 
 Additional tools used: styled-components, axios, OpenWeatherMap API.
