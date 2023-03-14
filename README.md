@@ -7,7 +7,7 @@ This weather forecast app is created based on OpenWeatherMap API.
 
 
 ## Tools/Language used
-[OpenWeatherMap API](https://api.nasa.gov/](https://openweathermap.org)
+[OpenWeatherMap API](https://openweathermap.org)
 Next.js
 Styled components
 
